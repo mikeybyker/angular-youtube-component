@@ -1,0 +1,24 @@
+{
+  "name": "angular-youtube-component",
+  "version": "0.1.5",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikeybyker/angular-youtube-component.git"
+  },
+  "main": "dist/angular.youtube.min.js",
+  "author": "mikeybyker+github@gmail.com",
+  "description": "A drop-in angular.js (1.5+) YouTube component",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "youtube"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-filter": "^5.0.0",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.0.1"
+  }
+}

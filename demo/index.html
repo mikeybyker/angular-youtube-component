@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Component</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body ng-app="app" ng-controller="AppController as $ctrl">    
+
+  <div class="container">
+
+    <div class="jumbotron">
+      <h2>YouTube Component</h2>
+      <p>
+        Parameters: 
+      </p>
+      <ul>
+        <li>videoId (videoid="ID") - required</li>
+        <li>width (width="WIDTH")</li>
+        <li>height (videoid="HEIGHT")</li>
+        <li>videoParams (video-params="PARAMS_OBJECT") [See: <a href="https://developers.google.com/youtube/player_parameters">Player parameters</a>]</li>
+      </ul>
+      <code>
+        &lt;youtube width="640" height="360" videoid="XLaFLztnL84" video-params="$ctrl.videoParams"&gt;&lt;/youtube&gt;
+      </code>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <youtube width="{{$ctrl.video.width}}" height="{{$ctrl.video.height}}" videoid="{{$ctrl.video.videoId}}" video-params="$ctrl.video.videoParams"></youtube>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+        <youtube width="640" height="390" videoid="BChww2pEZUs"></youtube>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="../dist/angular.youtube.min.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
