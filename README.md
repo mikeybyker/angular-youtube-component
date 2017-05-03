@@ -1,4 +1,4 @@
-# YouTube Directive
+# YouTube Component
 
 A component version (angular 1.5+) of the [YouTube directive](https://github.com/mikeybyker/angular-youtube-directive). Supply the video id and that's it.
 
@@ -28,7 +28,7 @@ If you want to supply [video parameters](https://developers.google.com/youtube/p
 ```
 
 ### Demo
-See it/play around: [Plnkr](http://plnkr.co/edit/9BkxfX5hevwkhLwTe26t?p=preview)
+See it/play around: [Plnkr](http://plnkr.co/edit/BhrxGzwyq6pEZY2yAiCh?p=preview)
 
 
 ### Version
